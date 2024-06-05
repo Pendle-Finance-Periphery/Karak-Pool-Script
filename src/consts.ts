@@ -20,30 +20,30 @@ export const CONFIG = {
 }
 
 export const PENDLE_POOL_ADDRESSES = {
-    id: 'Karak USDE mainnet (September)',
-    SY: '0xfe2d379117895fa6144b209c13894a17ab18c86c',
-    YT: '0x2e40d7cfee1e7d31d1f4875e6f33b2c9a17038ff',
-    LP: '0x1bcbdb8c8652345a5acf04e6e74f70086c68fefc',
+    id: 'Karak SUSDE mainnet (September)',
+    SY: '0x1b641894e66aec7bf5ab86517e8d81763cc8e19e',
+    YT: '0xdd68f5d26bf1182d6b241108bfc01f95c030502b',
+    LP: '0xb1f587b354a4a363f5332e88effbbc2e4961250a',
     MULTICALL: '0xca11bde05977b3631167028862be2a173976ca11',
-    START_BLOCK: 19967899,
+    START_BLOCK: 19967918,
     TREASURY: '0x8270400d528c34e1596ef367eedec99080a1b592',
-    PENPIE_RECEIPT_TOKEN: '0x0980be7cc405ae7c31cc39e1dd1ee77483c1a430',
-    EQB_STAKING: '0x6fdf80071499b46bb53afba7baff9d91a21133ab',
-    STAKEDAO_RECEIPT_TOKEN: '0x58779f66966875f0df78b445526c69a3bf8e6534',
+    PENPIE_RECEIPT_TOKEN: '0x1c055d8081ca3b2be0dd00abe784b142c608219e',
+    EQB_STAKING: '0xcb7212d19d52b53e44625dc1a9d4b1f1d4833575',
+    STAKEDAO_RECEIPT_TOKEN: '0xe492c6ba9a458ef0f44581e82d6da885b99d4027',
     LIQUID_LOCKERS: [
       {
         // Penpie
         address: '0x6e799758cee75dae3d84e09d40dc416ecf713652',
-        receiptToken: '0x0980be7cc405ae7c31cc39e1dd1ee77483c1a430',
+        receiptToken: '0x1c055d8081ca3b2be0dd00abe784b142c608219e',
       },
       {
         // EQB
         address: '0x64627901dadb46ed7f275fd4fc87d086cff1e6e3',
-        receiptToken: '0x6fdf80071499b46bb53afba7baff9d91a21133ab',
+        receiptToken: '0xcb7212d19d52b53e44625dc1a9d4b1f1d4833575',
       },
       {   // STAKEDAO
           address: '0xd8fa8dc5adec503acc5e026a98f32ca5c1fa289a',
-          receiptToken: '0x58779f66966875f0df78b445526c69a3bf8e6534',
+          receiptToken: '0xe492c6ba9a458ef0f44581e82d6da885b99d4027',
       }
     ],
   };
